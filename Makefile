@@ -2,7 +2,7 @@ TARGET := iphone:clang:16.5:13.7
 INSTALL_TARGET_PROCESSES = SpringBoard
 
 include $(THEOS)/makefiles/common.mk
-DEBUG=0
+
 BUNDLE_NAME = CCNeteaseMusic
 CCNeteaseMusic_BUNDLE_EXTENSION = bundle
 CCNeteaseMusic_FILES = CCNeteaseMusicProvider.m CCNeteaseMusicModule.m
