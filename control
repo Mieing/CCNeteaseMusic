@@ -1,9 +1,11 @@
-Package: com.fries.ccneteasemusic
+Package: ccneteasemusic
 Name: CCNeteaseMusic
-Depends: mobilesubstrate
 Version: 1.0.1
 Architecture: iphoneos-arm
 Description: CCNeteaseMusic
 Maintainer: fries
 Author: fries
-Section: Control Center (Provider)
+Section: Tweaks
+Depends: mobilesubstrate, com.opa334.ccsupport
+Icon: https://mieing.github.io/icon/CCNeteaseMusic.png
+Sileodepiction: https://mieing.github.io/JSON/CCNeteaseMusic.json
